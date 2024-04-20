@@ -1,0 +1,2 @@
+E:\ASPNET MVC\K22CNTT4-ASPNETMVC\Lesson01\NTK_Lab01.2\obj\Debug\NTK_Lab01.2.csproj.AssemblyReference.cache
+E:\ASPNET MVC\K22CNTT4-ASPNETMVC\Lesson01\NTK_Lab01.2\obj\Debug\NTK_Lab01.2.csproj.CoreCompileInputs.cache
