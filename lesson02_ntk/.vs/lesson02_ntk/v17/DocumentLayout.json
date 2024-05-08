@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "lesson02_ntk\\Views\\Products\\Details.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "lesson02_ntk\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T08:08:42.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "lesson02_ntk\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "lesson02_ntk\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T07:48:58.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "lesson02_ntk\\Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "lesson02_ntk\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T07:54:22.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "lesson02_ntk\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "lesson02_ntk\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T07:45:19.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
