@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\",
+  "WorkspaceRootPath": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson03_ntk\\ntk_lab03_baitap2\\lab03_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\lab03_baitaptulam_2\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|c:\\users\\wwwki\\downloads\\k22cnt4_nguyenthitrami_aspnet-main\\lab03\\lab03_baitaptulam_2\\lab03_baitaptulam_2\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\lab03_baitaptulam_2\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\lab03_baitaptulam_2\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\lab03_baitaptulam_2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -49,9 +49,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
               "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
-              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
+              "ToolTip": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
               "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwDwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -61,21 +61,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HTMLHelperController.cs",
-              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
+              "DocumentMoniker": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
               "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
-              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
+              "ToolTip": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
               "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T05:04:56.597Z"
+              "WhenOpened": "2024-05-10T05:04:56.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FormRegister.cshtml",
-              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
               "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
-              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
+              "ToolTip": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
               "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -85,9 +86,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Company.cs",
-              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Models\\Company.cs",
+              "DocumentMoniker": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Models\\Company.cs",
               "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Models\\Company.cs",
-              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson03_ntk\\ntk_Lab03_baitap2\\Lab03_BAITAPTULAM_2\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\wwwki\\Downloads\\K22CNT4_NguyenThiTraMi_AspNet-main\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Models\\Company.cs",
               "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Models\\Company.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
