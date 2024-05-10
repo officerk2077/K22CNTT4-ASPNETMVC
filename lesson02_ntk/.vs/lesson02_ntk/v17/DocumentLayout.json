@@ -38,8 +38,7 @@
               "RelativeToolTip": "lesson02_ntk\\Views\\Products\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T08:08:42.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T08:08:42.343Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "lesson02_ntk\\Views\\Products\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T07:54:22.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T07:54:22.273Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "lesson02_ntk\\Views\\Home\\About.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T07:45:19.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T07:45:19.37Z"
             }
           ]
         }
