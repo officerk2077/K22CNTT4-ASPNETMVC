@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\lesson02_ntk\\lesson02_ntk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3DA07C-AD9C-4292-8CD7-3782AC362CF8}|lesson02_ntk\\lesson02_ntk.csproj|solutionrelative:lesson02_ntk\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Products\\Details.cshtml",
               "RelativeDocumentMoniker": "lesson02_ntk\\Views\\Products\\Details.cshtml",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "lesson02_ntk\\Views\\Products\\Index.cshtml",
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "About.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\lesson02_ntk\\lesson02_ntk\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "lesson02_ntk\\Views\\Home\\About.cshtml",
