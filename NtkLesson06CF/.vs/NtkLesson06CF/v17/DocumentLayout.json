@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson06cf\\ntklesson06cf\\models\\ntkbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|solutionrelative:ntklesson06cf\\models\\ntkbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson06cf\\ntklesson06cf\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|solutionrelative:ntklesson06cf\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson06cf\\ntklesson06cf\\controllers\\ntkcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|solutionrelative:ntklesson06cf\\controllers\\ntkcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson06cf\\ntklesson06cf\\models\\ntkbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|solutionrelative:ntklesson06cf\\models\\ntkbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson06cf\\ntklesson06cf\\models\\ntkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3424863A-1FA3-46F7-B4C9-EDAECE6B5BFE}|NtkLesson06CF\\NtkLesson06CF.csproj|solutionrelative:ntklesson06cf\\models\\ntkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NtkCategoriesController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Controllers\\NtkCategoriesController.cs",
+              "RelativeDocumentMoniker": "NtkLesson06CF\\Controllers\\NtkCategoriesController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Controllers\\NtkCategoriesController.cs",
+              "RelativeToolTip": "NtkLesson06CF\\Controllers\\NtkCategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:58:15.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Web.config",
+              "RelativeDocumentMoniker": "NtkLesson06CF\\Web.config",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Web.config",
+              "RelativeToolTip": "NtkLesson06CF\\Web.config",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-05T09:36:08.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NtkBookStore.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Models\\NtkBookStore.cs",
+              "RelativeDocumentMoniker": "NtkLesson06CF\\Models\\NtkBookStore.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Models\\NtkBookStore.cs",
+              "RelativeToolTip": "NtkLesson06CF\\Models\\NtkBookStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:31:00.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ntkbook.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Models\\Ntkbook.cs",
+              "RelativeDocumentMoniker": "NtkLesson06CF\\Models\\Ntkbook.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Models\\Ntkbook.cs",
+              "RelativeToolTip": "NtkLesson06CF\\Models\\Ntkbook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:24:11.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NtkCategory.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Models\\NtkCategory.cs",
+              "RelativeDocumentMoniker": "NtkLesson06CF\\Models\\NtkCategory.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson06CF\\NtkLesson06CF\\Models\\NtkCategory.cs",
+              "RelativeToolTip": "NtkLesson06CF\\Models\\NtkCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:20:32.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
