@@ -1,0 +1,72 @@
+﻿@model NtkLesson06CF.Models.Ntkbook
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Ntkbook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkCategoryId)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

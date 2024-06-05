@@ -1,0 +1,63 @@
+﻿@model IEnumerable<NtkLesson06CF.Models.Ntkbook>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkPublisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkPicture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkCategoryId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkPublisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkPicture)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkCategoryId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NtkId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NtkId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NtkId })
+        </td>
+    </tr>
+}
+
+</table>

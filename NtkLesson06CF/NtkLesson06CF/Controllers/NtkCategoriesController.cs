@@ -9,6 +9,11 @@ namespace NtkLesson06CF.Controllers
 {
     public class NtkCategoriesController : Controller
     {
+        private static NtkBookStore ntkDb;
+        public NtkCategoriesController() 
+        {
+            ntkDb=new NtkBookStore();
+        }
         // GET: ntkCategories
         public ActionResult NtkIndex()
         {
@@ -20,6 +25,20 @@ namespace NtkLesson06CF.Controllers
             NtkBookStore ntkDb = new NtkBookStore();
             var ntkCategories = ntkDb.NtkCategories.ToList();
             return View(ntkCategories);
+        }
+
+        public ActionResult NtkCreate() 
+        {
+            var ntkCategory = new NtkCategory();
+            return View(ntkCategory);
+        }
+        [HttpPost]
+        public ActionResult NtkCreate(NtkCategory ntkCategory)
+        {
+            ntkDb.NtkCategories.Add(ntkCategory);
+            ntkDb.SaveChanges();
+
+            return RedirectToAction("NtkIndex");
         }
     }
 }

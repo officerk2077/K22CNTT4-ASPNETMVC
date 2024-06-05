@@ -1,0 +1,66 @@
+﻿@model NtkLesson06CF.Models.Ntkbook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ntkbook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkCategoryId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NtkId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
