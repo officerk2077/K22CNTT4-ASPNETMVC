@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NtkLesson07Df.Models.ntkKhoa>
+
+@{
+    ViewBag.Title = "NtkIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("NTK: Create New", "NtkCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkTrangThai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkTrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("NTK:Edit", "NtkEdit", new { id=item.NtkMaKH.Trim() }) |
+            @Html.ActionLink("NTK:Details","NtkDetails", new { id=item.NtkMaKH.Trim() }) |
+            @Html.ActionLink("NTK:Delete", "NtkDelete", new { id=item.NtkMaKH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>
