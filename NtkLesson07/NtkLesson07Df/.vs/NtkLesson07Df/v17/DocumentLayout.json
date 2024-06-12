@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson07\\NtkLesson07Df\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{973F0B03-9220-4C8C-A1EE-32AF6058E706}|NtkLesson07Df\\NtkLesson07Df.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson07\\ntklesson07df\\ntklesson07df\\views\\shared\\_ntklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{973F0B03-9220-4C8C-A1EE-32AF6058E706}|NtkLesson07Df\\NtkLesson07Df.csproj|solutionrelative:ntklesson07df\\views\\shared\\_ntklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_NtkLayout.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson07\\NtkLesson07Df\\NtkLesson07Df\\Views\\Shared\\_NtkLayout.cshtml",
+              "RelativeDocumentMoniker": "NtkLesson07Df\\Views\\Shared\\_NtkLayout.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NtkLesson07\\NtkLesson07Df\\NtkLesson07Df\\Views\\Shared\\_NtkLayout.cshtml",
+              "RelativeToolTip": "NtkLesson07Df\\Views\\Shared\\_NtkLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T08:31:11.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
