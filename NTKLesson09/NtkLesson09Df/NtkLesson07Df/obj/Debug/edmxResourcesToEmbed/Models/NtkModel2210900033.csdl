@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NtkK22CNT4Lesson07DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ntkKhoa">
+    <Key>
+      <PropertyRef Name="NtkMaKH" />
+    </Key>
+    <Property Name="NtkMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="NtkTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtkTrangThai" Type="Boolean" />
+    <NavigationProperty Name="NtkSinhVien" Relationship="NtkK22CNT4Lesson07DbModel.FK_NtkSinhVien_ntkKhoa" FromRole="ntkKhoa" ToRole="NtkSinhVien" />
+  </EntityType>
+  <EntityType Name="NtkSinhVien">
+    <Key>
+      <PropertyRef Name="NtkMaSV" />
+    </Key>
+    <Property Name="NtkMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NtkHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtkTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtkNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="TvcPhai" Type="Boolean" />
+    <Property Name="TvcPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="NtkEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtkMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="ntkKhoa" Relationship="NtkK22CNT4Lesson07DbModel.FK_NtkSinhVien_ntkKhoa" FromRole="NtkSinhVien" ToRole="ntkKhoa" />
+  </EntityType>
+  <EntityContainer Name="NtkK22CNT4Lesson07DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ntkKhoa" EntityType="Self.ntkKhoa" />
+    <EntitySet Name="NtkSinhVien" EntityType="Self.NtkSinhVien" />
+    <AssociationSet Name="FK_NtkSinhVien_ntkKhoa" Association="NtkK22CNT4Lesson07DbModel.FK_NtkSinhVien_ntkKhoa">
+      <End Role="ntkKhoa" EntitySet="ntkKhoa" />
+      <End Role="NtkSinhVien" EntitySet="NtkSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_NtkSinhVien_ntkKhoa">
+    <End Type="NtkK22CNT4Lesson07DbModel.ntkKhoa" Role="ntkKhoa" Multiplicity="0..1" />
+    <End Type="NtkK22CNT4Lesson07DbModel.NtkSinhVien" Role="NtkSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ntkKhoa">
+        <PropertyRef Name="NtkMaKH" />
+      </Principal>
+      <Dependent Role="NtkSinhVien">
+        <PropertyRef Name="NtkMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

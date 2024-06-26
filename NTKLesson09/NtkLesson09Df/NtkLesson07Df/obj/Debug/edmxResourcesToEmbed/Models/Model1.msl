@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NtkK22CNT4Lesson09DbModelStoreContainer" CdmEntityContainer="NtkK22CNT4Lesson09DbEntities">
+    <EntitySetMapping Name="ntkKetquas">
+      <EntityTypeMapping TypeName="NtkK22CNT4Lesson09DbModel.ntkKetqua">
+        <MappingFragment StoreEntitySet="ntkKetqua">
+          <ScalarProperty Name="ntkMaSV" ColumnName="ntkMaSV" />
+          <ScalarProperty Name="ntkMaMH" ColumnName="ntkMaMH" />
+          <ScalarProperty Name="ntkDiem" ColumnName="ntkDiem" />
+          <ScalarProperty Name="ntkStt" ColumnName="ntkStt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ntkKhoas">
+      <EntityTypeMapping TypeName="NtkK22CNT4Lesson09DbModel.ntkKhoa">
+        <MappingFragment StoreEntitySet="ntkKhoa">
+          <ScalarProperty Name="ntkMaKH" ColumnName="ntkMaKH" />
+          <ScalarProperty Name="ntkTenKH" ColumnName="ntkTenKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ntkMonHocs">
+      <EntityTypeMapping TypeName="NtkK22CNT4Lesson09DbModel.ntkMonHoc">
+        <MappingFragment StoreEntitySet="ntkMonHoc">
+          <ScalarProperty Name="ntkMaMH" ColumnName="ntkMaMH" />
+          <ScalarProperty Name="ntkTenMH" ColumnName="ntkTenMH" />
+          <ScalarProperty Name="ntkSotiet" ColumnName="ntkSotiet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ntkSinhViens">
+      <EntityTypeMapping TypeName="NtkK22CNT4Lesson09DbModel.ntkSinhVien">
+        <MappingFragment StoreEntitySet="ntkSinhVien">
+          <ScalarProperty Name="ntkMaSV" ColumnName="ntkMaSV" />
+          <ScalarProperty Name="ntkHoSV" ColumnName="ntkHoSV" />
+          <ScalarProperty Name="ntkTenSV" ColumnName="ntkTenSV" />
+          <ScalarProperty Name="ntkPhai" ColumnName="ntkPhai" />
+          <ScalarProperty Name="ntkNgaySinh" ColumnName="ntkNgaySinh" />
+          <ScalarProperty Name="ntkNoiSinh" ColumnName="ntkNoiSinh" />
+          <ScalarProperty Name="ntkMaKH" ColumnName="ntkMaKH" />
+          <ScalarProperty Name="ntkHocBong" ColumnName="ntkHocBong" />
+          <ScalarProperty Name="ntkDiemTrungBinh" ColumnName="ntkDiemTrungBinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
