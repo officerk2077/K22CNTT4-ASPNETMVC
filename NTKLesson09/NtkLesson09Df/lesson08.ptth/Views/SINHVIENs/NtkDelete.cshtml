@@ -1,0 +1,88 @@
+﻿@model lesson08.ntk.Models.SINHVIEN
+
+@{
+    ViewBag.Title = "NtkDelete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>SINHVIEN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkMaKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkMaKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkDiemTrungBinh)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="NtkDelete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "NtkIndex")
+        </div>
+    }
+</div>

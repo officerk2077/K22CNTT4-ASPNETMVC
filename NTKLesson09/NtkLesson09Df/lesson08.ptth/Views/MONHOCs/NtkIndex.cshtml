@@ -1,0 +1,39 @@
+﻿@model IEnumerable<lesson08.ntk.Models.MONHOC>
+
+@{
+    ViewBag.Title = "NtkIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NtkCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkTenMH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkSoTiet)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkTenMH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkSoTiet)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NtkEdit", new { id=item.NtkMaMH.Trim() }) |
+            @Html.ActionLink("Details", "NtkDetails", new { id=item.NtkMaMH.Trim() }) |
+            @Html.ActionLink("Delete", "NtkDelete", new { id=item.NtkMaMH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,4 @@
+E:\ASPNET MVC\K22CNTT4-ASPNETMVC\NTKLesson09\NtkLesson09Df\lesson08.ptth\obj\Debug\lesson09.ntk.csproj.AssemblyReference.cache
+E:\ASPNET MVC\K22CNTT4-ASPNETMVC\NTKLesson09\NtkLesson09Df\lesson08.ptth\obj\Debug\lesson09.ntk.csproj.CoreCompileInputs.cache
+E:\ASPNET MVC\K22CNTT4-ASPNETMVC\NTKLesson09\NtkLesson09Df\lesson08.ptth\obj\Debug\lesson08.ptth.dll
+E:\ASPNET MVC\K22CNTT4-ASPNETMVC\NTKLesson09\NtkLesson09Df\lesson08.ptth\obj\Debug\lesson08.ptth.pdb

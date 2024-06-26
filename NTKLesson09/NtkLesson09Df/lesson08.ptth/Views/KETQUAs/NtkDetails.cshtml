@@ -1,0 +1,42 @@
+﻿@model lesson08.ntk.Models.NTKKETQUA
+
+@{
+    ViewBag.Title = "NtkDetails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NTKKETQUA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkDiem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkDiem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MONHOC.NtkTenMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MONHOC.NtkTenMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SINHVIEN.NtkHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SINHVIEN.NtkHoSV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NtkEdit", "NtkEdit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "NtkIndex")
+</p>

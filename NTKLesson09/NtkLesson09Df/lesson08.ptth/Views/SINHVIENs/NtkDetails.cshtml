@@ -1,0 +1,82 @@
+﻿@model lesson08.ntk.Models.SINHVIEN
+
+@{
+    ViewBag.Title = "NtkDetails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SINHVIEN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkMaKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkMaKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkDiemTrungBinh)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NtkEdit", "NtkEdit", new { id = Model.NtkMaSV }) |
+    @Html.ActionLink("Back to List", "NtkIndex")
+</p>

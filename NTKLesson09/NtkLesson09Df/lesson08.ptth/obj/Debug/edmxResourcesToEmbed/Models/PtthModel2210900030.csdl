@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PtthK22CNT4qlSinhVienModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KHOA">
+    <Key>
+      <PropertyRef Name="PtthMaKH" />
+    </Key>
+    <Property Name="PtthMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PtthTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MONHOC">
+    <Key>
+      <PropertyRef Name="PtthMaMH" />
+    </Key>
+    <Property Name="PtthMaMH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PtthTenMH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PtthSoTiet" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SINHVIEN">
+    <Key>
+      <PropertyRef Name="PtthMaSV" />
+    </Key>
+    <Property Name="PtthMaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PtthHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PtthTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PtthPhai" Type="Boolean" />
+    <Property Name="PtthNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="PtthNoiSinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PtthMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="PtthHocBong" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PtthDiemTrungBinh" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="KETQUA">
+    <Key>
+      <PropertyRef Name="PtthMaSV" />
+      <PropertyRef Name="PtthMaMH" />
+    </Key>
+    <Property Name="PtthMaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PtthMaMH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PtthDiem" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityContainer Name="PtthK22CNT4qlSinhVienEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KHOAs" EntityType="Self.KHOA" />
+    <EntitySet Name="MONHOCs" EntityType="Self.MONHOC" />
+    <EntitySet Name="SINHVIENs" EntityType="Self.SINHVIEN" />
+    <EntitySet Name="KETQUAs" EntityType="Self.KETQUA" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\KHOAsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Controllers\\KHOAsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\Shared\\_NtkLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Views\\Shared\\_NtkLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\MONHOCsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Controllers\\MONHOCsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\KETQUAsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Controllers\\KETQUAsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\SINHVIENsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Controllers\\SINHVIENsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\KETQUAs\\NtkDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Views\\KETQUAs\\NtkDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\KETQUAs\\NtkCreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Views\\KETQUAs\\NtkCreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Models\\Model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson08.ptth\\Models\\Model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_NtkLayout.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\Shared\\_NtkLayout.cshtml",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Views\\Shared\\_NtkLayout.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\Shared\\_NtkLayout.cshtml",
+              "RelativeToolTip": "lesson08.ptth\\Views\\Shared\\_NtkLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:40:23.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MONHOCsController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\MONHOCsController.cs",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Controllers\\MONHOCsController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\MONHOCsController.cs",
+              "RelativeToolTip": "lesson08.ptth\\Controllers\\MONHOCsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:39:52.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KHOAsController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\KHOAsController.cs",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Controllers\\KHOAsController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\KHOAsController.cs",
+              "RelativeToolTip": "lesson08.ptth\\Controllers\\KHOAsController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:39:37.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KETQUAsController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\KETQUAsController.cs",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Controllers\\KETQUAsController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\KETQUAsController.cs",
+              "RelativeToolTip": "lesson08.ptth\\Controllers\\KETQUAsController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAHgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:39:12.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SINHVIENsController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\SINHVIENsController.cs",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Controllers\\SINHVIENsController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Controllers\\SINHVIENsController.cs",
+              "RelativeToolTip": "lesson08.ptth\\Controllers\\SINHVIENsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:38:36.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NtkDetails.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\KETQUAs\\NtkDetails.cshtml",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Views\\KETQUAs\\NtkDetails.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\KETQUAs\\NtkDetails.cshtml",
+              "RelativeToolTip": "lesson08.ptth\\Views\\KETQUAs\\NtkDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:35:49.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NtkCreate.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\KETQUAs\\NtkCreate.cshtml",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Views\\KETQUAs\\NtkCreate.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Views\\KETQUAs\\NtkCreate.cshtml",
+              "RelativeToolTip": "lesson08.ptth\\Views\\KETQUAs\\NtkCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:34:33.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model1.edmx",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "lesson08.ptth\\Models\\Model1.edmx",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson09\\NtkLesson09Df\\lesson08.ptth\\Models\\Model1.edmx",
+              "RelativeToolTip": "lesson08.ptth\\Models\\Model1.edmx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-26T09:33:44.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

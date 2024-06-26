@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PtthK22CNT4qlSinhVienModelStoreContainer" CdmEntityContainer="PtthK22CNT4qlSinhVienEntities1">
+    <EntitySetMapping Name="KHOAs">
+      <EntityTypeMapping TypeName="PtthK22CNT4qlSinhVienModel.KHOA">
+        <MappingFragment StoreEntitySet="KHOA">
+          <ScalarProperty Name="PtthMaKH" ColumnName="PtthMaKH" />
+          <ScalarProperty Name="PtthTenKH" ColumnName="PtthTenKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONHOCs">
+      <EntityTypeMapping TypeName="PtthK22CNT4qlSinhVienModel.MONHOC">
+        <MappingFragment StoreEntitySet="MONHOC">
+          <ScalarProperty Name="PtthMaMH" ColumnName="PtthMaMH" />
+          <ScalarProperty Name="PtthTenMH" ColumnName="PtthTenMH" />
+          <ScalarProperty Name="PtthSoTiet" ColumnName="PtthSoTiet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SINHVIENs">
+      <EntityTypeMapping TypeName="PtthK22CNT4qlSinhVienModel.SINHVIEN">
+        <MappingFragment StoreEntitySet="SINHVIEN">
+          <ScalarProperty Name="PtthMaSV" ColumnName="PtthMaSV" />
+          <ScalarProperty Name="PtthHoSV" ColumnName="PtthHoSV" />
+          <ScalarProperty Name="PtthTenSV" ColumnName="PtthTenSV" />
+          <ScalarProperty Name="PtthPhai" ColumnName="PtthPhai" />
+          <ScalarProperty Name="PtthNgaySinh" ColumnName="PtthNgaySinh" />
+          <ScalarProperty Name="PtthNoiSinh" ColumnName="PtthNoiSinh" />
+          <ScalarProperty Name="PtthMaKH" ColumnName="PtthMaKH" />
+          <ScalarProperty Name="PtthHocBong" ColumnName="PtthHocBong" />
+          <ScalarProperty Name="PtthDiemTrungBinh" ColumnName="PtthDiemTrungBinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KETQUAs">
+      <EntityTypeMapping TypeName="PtthK22CNT4qlSinhVienModel.KETQUA">
+        <MappingFragment StoreEntitySet="KETQUA">
+          <ScalarProperty Name="PtthMaSV" ColumnName="PtthMaSV" />
+          <ScalarProperty Name="PtthMaMH" ColumnName="PtthMaMH" />
+          <ScalarProperty Name="PtthDiem" ColumnName="PtthDiem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
