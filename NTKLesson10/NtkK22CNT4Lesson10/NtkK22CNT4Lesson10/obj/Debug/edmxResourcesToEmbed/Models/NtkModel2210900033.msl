@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NtkK22CNT4Lesson10DbModelStoreContainer" CdmEntityContainer="NtkK22CNT4Lesson10DbEntities2">
+    <EntitySetMapping Name="NtkAccounts">
+      <EntityTypeMapping TypeName="NtkK22CNT4Lesson10DbModel.NtkAccount">
+        <MappingFragment StoreEntitySet="NtkAccount">
+          <ScalarProperty Name="NtkID" ColumnName="NtkID" />
+          <ScalarProperty Name="NtkUserName" ColumnName="NtkUserName" />
+          <ScalarProperty Name="NtkPassword" ColumnName="NtkPassword" />
+          <ScalarProperty Name="NtkFullName" ColumnName="NtkFullName" />
+          <ScalarProperty Name="NtkEmail" ColumnName="NtkEmail" />
+          <ScalarProperty Name="NtkPhone" ColumnName="NtkPhone" />
+          <ScalarProperty Name="NtkActive" ColumnName="NtkActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

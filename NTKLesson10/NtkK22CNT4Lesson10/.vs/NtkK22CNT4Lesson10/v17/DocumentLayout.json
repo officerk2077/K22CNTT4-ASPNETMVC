@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\views\\ntkhome\\ntkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\views\\ntkhome\\ntkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\controllers\\ntkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\controllers\\ntkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\views\\ntkaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\views\\ntkaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\controllers\\ntkaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\controllers\\ntkaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\views\\ntkaccounts\\ntklogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\views\\ntkaccounts\\ntklogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\views\\shared\\_ntklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\views\\shared\\_ntklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|e:\\aspnet mvc\\k22cntt4-aspnetmvc\\ntklesson10\\ntkk22cnt4lesson10\\ntkk22cnt4lesson10\\models\\ntkmodel2210900033.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{F8722595-9059-42E7-B032-413F0FCE94E5}|NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10.csproj|solutionrelative:ntkk22cnt4lesson10\\models\\ntkmodel2210900033.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NtkIndex.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\NtkHome\\NtkIndex.cshtml",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Views\\NtkHome\\NtkIndex.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\NtkHome\\NtkIndex.cshtml",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Views\\NtkHome\\NtkIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T09:57:10.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NtkHomeController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Controllers\\NtkHomeController.cs",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Controllers\\NtkHomeController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Controllers\\NtkHomeController.cs",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Controllers\\NtkHomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:54:03.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\NtkAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Views\\NtkAccounts\\Create.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\NtkAccounts\\Create.cshtml",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Views\\NtkAccounts\\Create.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T08:48:14.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NtkLogin.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\NtkAccounts\\NtkLogin.cshtml",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Views\\NtkAccounts\\NtkLogin.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\NtkAccounts\\NtkLogin.cshtml",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Views\\NtkAccounts\\NtkLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T08:47:48.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NtkAccountsController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Controllers\\NtkAccountsController.cs",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Controllers\\NtkAccountsController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Controllers\\NtkAccountsController.cs",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Controllers\\NtkAccountsController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAqwIoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T08:45:47.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NtkModel2210900033.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Models\\NtkModel2210900033.edmx",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Models\\NtkModel2210900033.edmx",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Models\\NtkModel2210900033.edmx [Diagram1]",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Models\\NtkModel2210900033.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-03T08:15:50.306Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_NtkLayout.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\Shared\\_NtkLayout.cshtml",
+              "RelativeDocumentMoniker": "NtkK22CNT4Lesson10\\Views\\Shared\\_NtkLayout.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\K22CNTT4-ASPNETMVC\\NTKLesson10\\NtkK22CNT4Lesson10\\NtkK22CNT4Lesson10\\Views\\Shared\\_NtkLayout.cshtml",
+              "RelativeToolTip": "NtkK22CNT4Lesson10\\Views\\Shared\\_NtkLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T08:57:23.625Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

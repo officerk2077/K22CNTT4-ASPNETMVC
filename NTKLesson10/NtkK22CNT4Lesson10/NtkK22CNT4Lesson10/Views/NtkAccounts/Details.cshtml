@@ -1,0 +1,67 @@
+﻿@model NtkK22CNT4Lesson10.Models.NtkAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NtkLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NtkAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NtkID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

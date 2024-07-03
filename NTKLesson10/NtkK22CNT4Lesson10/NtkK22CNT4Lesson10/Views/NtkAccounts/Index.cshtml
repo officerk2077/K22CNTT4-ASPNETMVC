@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NtkK22CNT4Lesson10.Models.NtkAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NtkLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtkActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NtkID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NtkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NtkID })
+        </td>
+    </tr>
+}
+
+</table>

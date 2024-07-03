@@ -1,0 +1,73 @@
+﻿@model NtkK22CNT4Lesson10.Models.NtkAccount
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_NtkLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NtkAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkActive)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
