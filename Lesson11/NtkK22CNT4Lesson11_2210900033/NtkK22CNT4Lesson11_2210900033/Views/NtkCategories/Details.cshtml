@@ -1,0 +1,35 @@
+﻿@model NtkK22CNT4Lesson11_2210900033.Models.NtkCategory
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Ntk2210900033Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NtkCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkCateName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NtkID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

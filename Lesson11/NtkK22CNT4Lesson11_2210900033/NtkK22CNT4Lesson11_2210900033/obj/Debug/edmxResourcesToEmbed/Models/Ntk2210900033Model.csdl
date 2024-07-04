@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NtkK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NtkCategory">
+    <Key>
+      <PropertyRef Name="NtkID" />
+    </Key>
+    <Property Name="NtkID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NtkCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtkStatus" Type="Boolean" />
+    <NavigationProperty Name="NtkProducts" Relationship="Self.FK_NtkProduct_NtkCategory" FromRole="NtkCategory" ToRole="NtkProduct" />
+  </EntityType>
+  <EntityType Name="NtkProduct">
+    <Key>
+      <PropertyRef Name="NtkId2210900033" />
+    </Key>
+    <Property Name="NtkId2210900033" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NtkProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtkQty" Type="Int32" />
+    <Property Name="NtkPrice" Type="Double" />
+    <Property Name="NtkCateId" Type="Int32" />
+    <Property Name="NtkActive" Type="Boolean" />
+    <NavigationProperty Name="NtkCategory" Relationship="Self.FK_NtkProduct_NtkCategory" FromRole="NtkProduct" ToRole="NtkCategory" />
+  </EntityType>
+  <Association Name="FK_NtkProduct_NtkCategory">
+    <End Role="NtkCategory" Type="Self.NtkCategory" Multiplicity="0..1" />
+    <End Role="NtkProduct" Type="Self.NtkProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NtkCategory">
+        <PropertyRef Name="NtkID" />
+      </Principal>
+      <Dependent Role="NtkProduct">
+        <PropertyRef Name="NtkCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NtkK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NtkCategories" EntityType="Self.NtkCategory" />
+    <EntitySet Name="NtkProducts" EntityType="Self.NtkProduct" />
+    <AssociationSet Name="FK_NtkProduct_NtkCategory" Association="Self.FK_NtkProduct_NtkCategory">
+      <End Role="NtkCategory" EntitySet="NtkCategories" />
+      <End Role="NtkProduct" EntitySet="NtkProducts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

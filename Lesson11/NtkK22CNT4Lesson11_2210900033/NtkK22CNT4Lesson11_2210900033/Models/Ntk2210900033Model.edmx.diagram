@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d224a9f52be41dea1caf2be7044f34d" Name="Diagram1">
+        <EntityTypeShape EntityType="NtkK22CNT4Lesson11DbModel.NtkCategory" Width="1.5" PointX="3.875" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NtkK22CNT4Lesson11DbModel.NtkProduct" Width="1.5" PointX="6.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="NtkK22CNT4Lesson11DbModel.FK_NtkProduct_NtkCategory" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
