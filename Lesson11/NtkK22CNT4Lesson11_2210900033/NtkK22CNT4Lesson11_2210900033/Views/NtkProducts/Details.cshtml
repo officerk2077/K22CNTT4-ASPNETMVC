@@ -1,0 +1,59 @@
+﻿@model NtkK22CNT4Lesson11_2210900033.Models.NtkProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Ntk2210900033Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NtkProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtkCategory.NtkCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtkCategory.NtkCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NtkId2210900033 }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -10,9 +10,12 @@
 <p>
     @*@Html.ActionLink("Create New", "Create")*@
 </p>
-<a href="/NtkCategories/Create6" class="btn btn-primary my-3">Thêm mới</a>
+<a href="/NtkCategories/Create" class="btn btn-primary my-3">Thêm mới</a>
 <table class="table table-bordered">
     <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtkID)
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.NtkCateName)
         </th>
@@ -26,10 +29,22 @@
     {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.NtkID)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.NtkCateName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.NtkStatus)
+                @*@Html.DisplayFor(modelItem => item.NtkStatus)*@
+
+                @if (item.NtkStatus == true)
+                {
+                    <span style="color:green"> Hoạt động </span>
+                }
+                else
+                {
+                    <span style="color:red"> Không Hoạt động </span>
+                }
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.NtkID }) |
