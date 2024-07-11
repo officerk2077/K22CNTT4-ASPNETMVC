@@ -1,0 +1,26 @@
+﻿@model NtkK22CNT4Lesson12_2210900033.Models.Ntk_TACGIA
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ntk_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntk_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntk_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NtkEdit", "NtkEdit", new { id = Model.Ntk_MaTG }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

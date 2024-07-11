@@ -1,0 +1,58 @@
+﻿@model NtkK22CNT4Lesson12_2210900033.Models.Ntk_SACH
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ntk_SACH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntk_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntk_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntk_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntk_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntk_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntk_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntk_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntk_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntk_TACGIA.Ntk_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntk_TACGIA.Ntk_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NtkEdit", "NtkEdit", new { id = Model.Ntk_MaSach }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

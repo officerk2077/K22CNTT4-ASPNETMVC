@@ -1,0 +1,57 @@
+﻿@model IEnumerable<NtkK22CNT4Lesson12_2210900033.Models.Ntk_SACH>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ntk_TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ntk_SoTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ntk_NamXB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ntk_TrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ntk_TACGIA.Ntk_TenTG)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ntk_TenSach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ntk_SoTrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ntk_NamXB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ntk_TrangThai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ntk_TACGIA.Ntk_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("NtkEdit", "NtkEdit", new { id=item.Ntk_MaSach }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Ntk_MaSach }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Ntk_MaSach })
+        </td>
+    </tr>
+}
+
+</table>

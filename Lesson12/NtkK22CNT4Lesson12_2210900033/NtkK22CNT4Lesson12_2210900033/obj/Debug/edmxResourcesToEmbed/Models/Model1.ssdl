@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NguyenTrucKien_2210900033Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ntk_SACH">
+    <Key>
+      <PropertyRef Name="Ntk_MaSach" />
+    </Key>
+    <Property Name="Ntk_MaSach" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Ntk_TenSach" Type="nvarchar" MaxLength="250" />
+    <Property Name="Ntk_SoTrang" Type="int" />
+    <Property Name="Ntk_NamXB" Type="int" />
+    <Property Name="Ntk_MaTG" Type="char" MaxLength="5" />
+    <Property Name="Ntk_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="Ntk_TACGIA">
+    <Key>
+      <PropertyRef Name="Ntk_MaTG" />
+    </Key>
+    <Property Name="Ntk_MaTG" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Ntk_TenTG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Ntk_SACH_Ntk_TACGIA">
+    <End Role="Ntk_TACGIA" Type="Self.Ntk_TACGIA" Multiplicity="0..1" />
+    <End Role="Ntk_SACH" Type="Self.Ntk_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ntk_TACGIA">
+        <PropertyRef Name="Ntk_MaTG" />
+      </Principal>
+      <Dependent Role="Ntk_SACH">
+        <PropertyRef Name="Ntk_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NguyenTrucKien_2210900033ModelStoreContainer">
+    <EntitySet Name="Ntk_SACH" EntityType="Self.Ntk_SACH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ntk_TACGIA" EntityType="Self.Ntk_TACGIA" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Ntk_SACH_Ntk_TACGIA" Association="Self.FK_Ntk_SACH_Ntk_TACGIA">
+      <End Role="Ntk_TACGIA" EntitySet="Ntk_TACGIA" />
+      <End Role="Ntk_SACH" EntitySet="Ntk_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
